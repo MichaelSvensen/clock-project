@@ -1,0 +1,82 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color:#fff;
+background:linear-gradient(40deg, rgba(147, 125, 194, 1),rgba(198, 137, 198, 1), rgba(232, 160, 191, 1));
+
+}
+
+html{
+  height:100%;
+}
+
+h2{
+  font-weight:200;
+}
+
+.heading-box{
+
+margin-top:5rem;
+
+}
+.title-tag{
+  text-align: center;
+
+}
+
+.sub-heading{
+  text-align: center;
+
+}
+
+
+.clock{
+background:#916BBF;
+border-radius:50px;
+ /* Center vertically and horizontally */
+ position: fixed;
+top: 40%;
+left: 25%;
+width:50%;
+height:30%;
+text-align: center;
+
+}
+
+#MyClock{
+  font-weight:500;
+  font-size:5rem;
+  padding-top:3%;
+}
+
+#MyDate{
+  font-weight:500;
+  font-size:2rem;
+}
+
+@media (max-width: 800px) {
+
+  .clock{
+   /* Center vertically and horizontally */
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  width:80%;
+  height:20%;
+  text-align: center;
+  padding-top:10%;
+
+  }
+
+  #MyClock{
+    font-weight:500;
+    font-size:2.5rem;
+    padding-top:3%;
+  }
+
+  #MyDate{
+    font-weight:500;
+    font-size:1rem;
+  }
+
+}
