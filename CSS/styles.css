@@ -40,13 +40,13 @@ left: 25%;
 width:50%;
 height:30%;
 text-align: center;
+padding:3%;
 
 }
 
 #MyClock{
   font-weight:500;
   font-size:5rem;
-  padding-top:3%;
 }
 
 #MyDate{
